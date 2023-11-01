@@ -2833,6 +2833,11 @@ dom-serializer@^1.0.1:
     domhandler "^4.2.0"
     entities "^2.0.0"
 
+dom-zindex@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dom-zindex/-/dom-zindex-1.0.1.tgz#98df1d916f390f009bb0ec03b96df820e7c7073a"
+  integrity sha512-M/MERVDZ8hguvjl6MAlLWSLYLS7PzEyXaTb5gEeJ+SF+e9iUC0sdvlzqe91MMDHBoy+nqw7wKcUOrDSyvMCrRg==
+
 domelementtype@^2.0.1, domelementtype@^2.2.0:
   version "2.3.0"
   resolved "https://registry.npmmirror.com/domelementtype/-/domelementtype-2.3.0.tgz#5c45e8e869952626331d7aab326d01daf65d589d"
@@ -6204,6 +6209,14 @@ vuex@^3.6.2:
   resolved "https://registry.npmmirror.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
   integrity sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==
 
+vxe-table@^3.7.5:
+  version "3.7.5"
+  resolved "https://registry.yarnpkg.com/vxe-table/-/vxe-table-3.7.5.tgz#f2a37cf13fb349aaa0372ab74bdfc1a53ea46a68"
+  integrity sha512-/52qKkgYQs91MPSL0W6s2EioJqwuemb7lUtNqq0py6B64LZtw0OhA+HsjR9oqSjqujex8GTpzaewwLpvIqX49A==
+  dependencies:
+    dom-zindex "^1.0.1"
+    xe-utils "^3.5.13"
+
 watchpack@^2.4.0:
   version "2.4.0"
   resolved "https://registry.npmmirror.com/watchpack/-/watchpack-2.4.0.tgz#fa33032374962c78113f93c7f2fb4c54c9862a5d"
@@ -6440,6 +6453,11 @@ ws@^8.13.0:
   version "8.14.2"
   resolved "https://registry.npmmirror.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
   integrity sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==
+
+xe-utils@^3.5.13:
+  version "3.5.13"
+  resolved "https://registry.yarnpkg.com/xe-utils/-/xe-utils-3.5.13.tgz#200b49d2e3f1ab8798bccc8e34aa32502b180164"
+  integrity sha512-ORT6ghCRk0mUVavMBxetcPzUPskS6NGfntzpWazJ86e+XU0uK4HwHfDhN/jKATiyInrOH5RwQo9SO/+DB8XeBw==
 
 xmlcreate@^2.0.4:
   version "2.0.4"
